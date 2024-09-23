@@ -20,7 +20,7 @@
 
 */
 
-	#define SERVER_MODE       		"Build 1.0.5"
+	#define SERVER_MODE       		"1.0.5"
 #endif
 
 #if !defined SERVER_MAP
