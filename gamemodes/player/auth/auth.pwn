@@ -169,13 +169,13 @@ Player_SendLoginMessage(playerid) {
 	new str[256], rank[24], staff[32];
 
 	SendClientMessage(playerid, -1, " " ) ;
-	format ( str, sizeof ( str ), "Hey {5CB4E3}%s{FFFFFF}, welcome back to {297183}%s!{FFFFFF}", Account [ playerid ] [ E_PLAYER_ACCOUNT_NAME ], SERVER_NAME );
+	format ( str, sizeof ( str ), "Привет {5CB4E3}%s{FFFFFF}, с возвращением на {297183}%s!{FFFFFF}", Account [ playerid ] [ E_PLAYER_ACCOUNT_NAME ], SERVER_NAME );
 	SendClientMessage(playerid, -1, str ) ;
 
 	GetPremiumRank ( Account [ playerid ] [ E_PLAYER_ACCOUNT_PREMIUMLEVEL ], rank, 24 ) ;
 	GetAdminRankName ( Account [ playerid ] [ E_PLAYER_ACCOUNT_STAFFLEVEL ], staff, 32 ) ;
 
-	SendClientMessage(playerid, -1, sprintf("You're logged in as a {EEC650}%s{FFFFFF}, playing as {5CB4E3}%s (%d)", rank, ReturnMixedName(playerid), Character[playerid][E_CHARACTER_ID]));
+	SendClientMessage(playerid, -1, sprintf("Вы авторизовались как {EEC650}%s{FFFFFF}, играя за {5CB4E3}%s (%d)", rank, ReturnMixedName(playerid), Character[playerid][E_CHARACTER_ID]));
 	
 	if (Account [ playerid ] [ E_PLAYER_ACCOUNT_STAFFLEVEL ])
 	{
