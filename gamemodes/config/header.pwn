@@ -1,7 +1,7 @@
 #include "config/includes.pwn"
 
 #if !defined SERVER_HOSTNAME
-	#define SERVER_HOSTNAME   		"[0.3.DL] Singleplayer Roleplay | discord.gg/sp-rp"
+	#define SERVER_HOSTNAME   		"2000s Roleplay - Heavy Text-Roleplay"
 #endif
 
 #if !defined SERVER_MODE
@@ -20,19 +20,19 @@
 
 */
 
-	#define SERVER_MODE       		"SP-RP v1.0.5"
+	#define SERVER_MODE       		"Build 1.0.5"
 #endif
 
 #if !defined SERVER_MAP
-	#define SERVER_MAP		    	"Los Santos"
+	#define SERVER_MAP		    	"Южный"
 #endif
 
 #if !defined SERVER_NAME 
-	#define SERVER_NAME 			"Singleplayer Roleplay"
+	#define SERVER_NAME 			"2000s Roleplay"
 #endif
 
 #if !defined SERVER_WEBSITE
-	#define SERVER_WEBSITE	    	"singleplayer-roleplay.com"
+	#define SERVER_WEBSITE	    	"www.2000s.ru"
 #endif
 
 #if !defined SERVER_VEH_RENT_FEE
