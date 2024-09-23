@@ -1,7 +1,7 @@
 #include "config/includes.pwn"
 
 #if !defined SERVER_HOSTNAME
-	#define SERVER_HOSTNAME   		"2000s Roleplay - Heavy Text-Roleplay"
+	#define SERVER_HOSTNAME   		"2000s Roleplay - Текстовое ролевое сообщество"
 #endif
 
 #if !defined SERVER_MODE
